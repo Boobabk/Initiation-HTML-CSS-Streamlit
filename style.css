@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif; /* Police moderne et claire */
+    line-height: 1.6; /* Améliore la lisibilité */
+    margin: 1;
+    padding: 0;
+    background-image: url('image ia voyage 2.png'); /* Image de fond */
+    background-size: cover; /* Couvre tout l'écran */
+    background-attachment: fixed; /* Effet de défilement fluide */
+    color: #3d3c3c; /* Texte en blanc pour contraster */
+ 
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    background: rgba(234, 231, 236, 0.737); /* Fond clair semi-transparent */
+    padding: 20px;
+    margin: 0;
+    font-size: 3em;
+    color: #04d9d2; /* Couleur du titre*/
+    text-shadow: 2px 2px 4px #424040;
+}
+
+/* Sous-titres */
+h2, h3 {
+    margin: 20px auto;
+    text-align: center;
+    color: #93f1db;
+    text-shadow: 2px 2px 4px #2b2a2a; /* Effet d'ombre au texte */
+}
+
+/* Paragraphes */
+p {
+    margin: 20px;
+    background: rgba(221, 213, 213, 0.399); /* Fond semi-transparent */
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 60%; /* Limite la taille de l'image */
+    border: 1px solid #8bebf0;
+    border-radius: 10px;
+}
+
+/* Listes des voyages */
+h3 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: rgba(91, 221, 219, 0.8); /* Fond doré semi-transparent */
+    border-radius: 5px;
+    color: #a09f9f;
+    align-items: center
+    justify-content: center
+}
+
+/* Ajout d'une animation au survol */
+h3:hover {
+    background: #e0c8eb;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
